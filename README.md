@@ -16,4 +16,7 @@ website/
         wsgi.py
 
 Sekarang kita tinggal mengecek apakah proyek Django bekerja dengan cara menjalankan perintah "python manage.py runserver" pada terminal. *pastikan posisi terminal berada pada akar direktori proyek
+
 Nantinya terminal akan mendirect kita ke browser yang akan memunculkan page jika Django berhasil terpasang dan siap untuk diotak-atik.
+
+Begitulah kurang lebih proses instalasi Django yang bisa saya ingat.
