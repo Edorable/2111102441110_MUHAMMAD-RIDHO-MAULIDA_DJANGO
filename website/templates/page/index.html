@@ -1,0 +1,219 @@
+{% extends 'page/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <!-- START Blogs w/ 3 rows w/ image on left & title, text, author on end-->
+        <section class="py-5">
+          <div class="card card-plain card-blog mt-5">
+            <div class="row">
+              <div class="col-lg-4 col-md-4">
+                <div class="card-image position-relative border-radius-lg">
+                  <div class="blur-shadow-image">
+                    <img class="img border-radius-lg" src="{% static 'page/assets/img/zeta_1.jpg' %}" alt="architecture" loading="lazy">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 col-md-7 my-sm-auto mt-3 ms-sm-3">
+                <h4>
+                  <a href="javascript:;" class="text-dark">[Mobile Suit Zeta Gundam] The HYPER MEGA LAUNCHER comes to METAL BUILD!</a>
+                </h4>
+                <p>
+                  A new series produced five years after the end of "Mobile Suit Gundam." It depicts the Universal Century seven years after the previous entry, featuring new faces such as Camille, as well as returning characters such as Char, Amuro, and others, making for an innovative production. Gimmicks such as variable mechanisms were devised for the MS and MA which, in addition to the detailed setting, earned appreciation from fans. <a href="javascript:;"> Read More </a>
+                </p>
+                </div>
+            </div>
+          </div>
+          <div class="card card-plain card-blog mt-5">
+            <div class="row">
+              <div class="col-lg-4 col-md-4">
+                <div class="card-image position-relative border-radius-lg">
+                  <div class="blur-shadow-image">
+                    <img class="img border-radius-lg" src="{% static 'page/assets/img/machu_1.jpg' %}" alt="estate" loading="lazy">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 col-md-7 my-sm-auto mt-3 ms-sm-3">
+                <h4>
+                  <a href="javascript:;" class="text-dark">S.H.Figuarts Amate Yuzuriha (Machu) Announced!</a>
+                </h4>
+                <p>
+                  From "MOBILE SUIT Gundam GQuuuuuuX" S.H.Figuarts Amate Yuzuriha (Machu)" will be commercialized. Details will be released at a later date. <a href="javascript:;"> Read More </a>
+                </p>
+                </div>
+            </div>
+          </div>
+          <div class="card card-plain card-blog my-5">
+            <div class="row">
+              <div class="col-lg-4 col-md-4">
+                <div class="card-image position-relative border-radius-lg">
+                  <div class="blur-shadow-image">
+                    <img class="img border-radius-lg" src="{% static 'page/assets/img/char_1.jpg' %}" alt="buildings" loading="lazy">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 col-md-7 my-sm-auto mt-3 ms-sm-3">
+                <h4>
+                  <a href="javascript:;" class="text-dark">Char Aznable, the "Red Comet," from "Mobile Suit Gundam" finally comes to S.H.Figuarts.</a>
+                </h4>
+                <p>
+                  The "Red Comet," Char Aznable, makes a long-awaited appearance in S.H.Figuarts.  While pursuing beautiful proportions, we have carefully implemented the movable gimmick with Char's most famous scenes in mind. In addition, a wide range of poses and scenes can be reproduced with a variety of interchangeable parts. <a href="javascript:;"> Read More </a>
+                </p>
+                </div>
+            </div>
+          </div>
+        </section>
+        <!-- END Blogs w/ 3 rows w/ image on left & title, text, author on end-->
+        <div class="card card-blog card-background">
+          <div class="full-background" style="background-image: url('https://tamashiiweb.com/store/tokyo/assets_c/2024/06/img_conts_kv_2407_02-thumb-1190xauto-4085.jpg')" loading="lazy"></div>
+          <div class="card-body body-left">
+            <div class="content-left text-start">
+              <h2 class="card-title text-white">METAL BUILD ALTERNATIVE</h2>
+              <p class="card-description">With the help of various creators, this is a finished toy brand that strives to create the ultimate fusion of
+                CHOGOKIN quality with a design tailored to the product. While the usage of superficial alloys was
+                restrained in order to achieve a real robotic appearance, the expertise of the CHOGOKIN series was utilized
+                throughout the design to expose the metal as is, sculpting the figure for mobility and giving it a real sense of weight.</p>
+              </div>
+          </div>
+        </div>
+        <ul class="pagination pagination-primary mt-4 ml-2">
+          <li class="page-item">
+            <a class="page-link" href="javascript:;" aria-label="Previous">
+              <span aria-hidden="true"><i class="fa fa-angle-double-left" aria-hidden="true"></i></span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="javascript:;">1</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="javascript:;">2</a>
+          </li>
+          <li class="page-item active">
+            <a class="page-link" href="javascript:;">3</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="javascript:;">4</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="javascript:;">5</a>
+          </li>
+          <li class="page-item">
+            <a class="page-link" href="javascript:;" aria-label="Next">
+              <span aria-hidden="true"><i class="fa fa-angle-double-right" aria-hidden="true"></i></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-4 ml-auto">
+        <div class="pt-1 pb-5 position-sticky top-1 mt-lg-8 mt-5">
+          <h4>Newsletter</h4>
+          <p>Get access to subscriber exclusive deals and be the first who gets informed about fresh sales.</p>
+          <div class="my-3">
+            <div class="input-group input-group-outline mb-sm-0 mb-2">
+              <label class="form-label">Email...</label>
+              <input type="email" class="form-control">
+            </div>
+          </div>
+          <button type="button" class="btn bg-gradient-primary">Subscribe</button>
+          <h4 class="mt-5">Activity</h4>
+          <a href="javascript::">
+            <div class="card justify-content-center mb-3">
+              <div class="card-body p-3">
+                <h6 class="mb-0">[Special site] [Mobile Fighter G Gundam] "METAL BUILD BURNING GUNDAM & BURNING GUNDAM SECOND" will be available for pre-order at Tamashii web shop!
+                  </h6>
+                <p class="mb-0 text-body">2025.03.31</p>
+              </div>
+              <div class="position-absolute end-0 me-3 ">
+                <i class="fas fa-angle-right"></i>
+              </div>
+            </div>
+          </a>
+          <a href="javascript::">
+            <div class="card justify-content-center mb-3">
+              <div class="card-body p-3">
+                <h6 class="mb-0">[TOPICS] [Tamashii web shop] LACUS CLYNE and Stronger will be available for pre-order on March 28th at 4pm! STRIKE FREEDOM GUNDAM TYPEⅡ [Hatsune Miku Ver.] Second lottery application also begins!</h6>
+                <p class="mb-0 text-body">2025.03.28</p>
+              </div>
+              <div class="position-absolute end-0 me-3 ">
+                <i class="fas fa-angle-right"></i>
+              </div>
+            </div>
+          </a>
+          <a href="javascript::">
+            <div class="card justify-content-center mb-3">
+              <div class="card-body p-3">
+                <h6 class="mb-0">[Special Site] [GUNDAM UNIVERSE] Introducing the "MS-06S CHAR'S ZAKU II (THE ORIGIN Colour Ver.)", Char's Zaku II model inspired by the colours in THE ORIGIN!</h6>
+                <p class="mb-0 text-body">2025.03.26</p>
+              </div>
+              <div class="position-absolute end-0 me-3 ">
+                <i class="fas fa-angle-right"></i>
+              </div>
+            </div>
+          </a>
+          <h4 class="mt-5">Top Stories</h4>
+          <div class="card card-plain card-blog mt-4">
+            <div class="row">
+              <div class="col-lg-4 col-md-4">
+                <div class="card-image position-relative border-radius-lg">
+                  <div class="blur-shadow-image">
+                    <img class="img border-radius-lg" src="https://tamashiiweb.com/images/item/item_0000015366_yhd0cuUe_05.jpg" alt="curved11" loading="lazy">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 col-md-8 my-sm-auto mt-3">
+                <h5>
+                  <a href="javascript:;" class="text-dark font-weight-normal">S.H.Figuarts LACUS CLYNE (PILOT SUITS Ver.) -COCKPIT PARTS SET-
+                    </a>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="card card-plain card-blog mt-4">
+            <div class="row">
+              <div class="col-lg-4 col-md-4">
+                <div class="card-image position-relative border-radius-lg">
+                  <div class="blur-shadow-image">
+                    <img class="img border-radius-lg" src="https://tamashiiweb.com/images/item/item_0000015337_CFHMU4z7_10.jpg" alt="curved9" loading="lazy">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 col-md-8 my-sm-auto mt-3">
+                <h5>
+                  <a href="javascript:;" class="text-dark font-weight-normal">[SIDE MS] STRIKE FREEDOM GUNDAM TYPE II [HATSUNE MIKU Ver.]</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="card card-plain card-blog mt-4">
+            <div class="row">
+              <div class="col-lg-4 col-md-4">
+                <div class="card-image position-relative border-radius-lg">
+                  <div class="blur-shadow-image">
+                    <img class="img border-radius-lg" src="https://tamashiiweb.com/images/item/item_0000015365_Lnjetcl0_11.jpg" alt="curved8" loading="lazy">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 col-md-8 my-sm-auto mt-3">
+                <h5>
+                  <a href="javascript:;" class="text-dark font-weight-normal">METAL BUILD BURNING GUNDAM & BURNING GUNDAM SECOND</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <h4 class="mt-5 mb-4">Tags</h4>
+          <span class="badge bg-light text-dark">S.H.Figuarts</span>
+          <span class="badge bg-light text-dark">Figuarts Mini</span>
+          <span class="badge bg-light text-dark">Metal Build</span>
+          <span class="badge bg-light text-dark">S.I.C.</span>
+        </div>
+      </div>
+      <div class="col-12">
+        </div>
+    </div>
+  </div>
+
+{% endblock %}
